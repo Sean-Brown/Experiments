@@ -1,22 +1,18 @@
 //
-//  main.m
-//  HelloObjectiveC
+//  main.c
+//  MyFirstApp
 //
 //  Created by Peter Himschoot on 05/03/12.
 //  Copyright (c) 2012 U2U. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#include <stdio.h>
 
 int main(int argc, const char * argv[])
 {
-  
-  @autoreleasepool {
-    
+
     // insert code here...
-    NSLog(@"Hello, %s", "World!");
-    
-  }
-  return 0;
+    printf("Hello, World!\n");
+    return 0;
 }
 
